@@ -1,1 +1,8 @@
+.search-Input {
+  text-align: center;
+}
 
+.search-Input label {
+  margin: 20px;
+  font-weight: bold;
+}

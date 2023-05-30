@@ -1,0 +1,15 @@
+.Meaning h3 {
+  margin: 20px;
+}
+
+.Meaning p {
+  margin: 0 50px;
+}
+
+.Meaning-Definition {
+  font-size: 20px;
+}
+
+.Meaning em {
+  font-size: 15px;
+}
