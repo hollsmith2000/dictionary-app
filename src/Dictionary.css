@@ -1,8 +1,28 @@
-.search-Input {
-  text-align: center;
+.Dictionary section {
+  background: lightblue;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 20px 0;
 }
 
-.search-Input label {
-  margin: 20px;
+.Dictionary h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
   font-weight: bold;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.search-Input {
+  text-align: center;
 }
