@@ -2,3 +2,9 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 500px) {
+  section.Photos {
+    padding: 100px;
+  }
+}

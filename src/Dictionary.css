@@ -1,5 +1,5 @@
 .Dictionary section {
-  background: lightblue;
+  background: #add8e6;
   padding: 30px;
   border-radius: 16px;
   margin: 20px 0;
@@ -15,7 +15,6 @@
   width: 100%;
   padding: 6px 4px;
   border: 1px solid #ddd;
-  color: #333;
 }
 
 .Dictionary .hint {
@@ -25,4 +24,18 @@
 
 .search-Input {
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .Dictionary section {
+    padding: 10px;
+  }
+
+  .Dictionary h1 {
+    font-size: 28px;
+  }
+
+  .Results h4 {
+    font-size: 20px;
+  }
 }
