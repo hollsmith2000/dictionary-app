@@ -1,8 +1,12 @@
 .Dictionary section {
   background: #add8e6;
-  padding: 30px;
-  border-radius: 16px;
+
+  border-radius: 8px;
   margin: 20px 0;
+}
+
+section {
+  padding: 30px;
 }
 
 .Dictionary h1 {
@@ -26,9 +30,22 @@
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .Dictionary section {
     padding: 10px;
+  }
+
+  .Dictionary h1 {
+    font-size: 28px;
+  }
+
+  .Results h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 850px) {
+  section {
+    padding: 15px;
   }
 
   .Dictionary h1 {

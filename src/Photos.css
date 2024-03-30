@@ -1,10 +1,21 @@
 .Photos img {
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 
-@media (max-width: 500px) {
-  section.Photos {
-    padding: 100px;
+@media (max-width: 550px) {
+  .row > * {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .Photos img {
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .col-4 {
+    width: 50%;
   }
 }
